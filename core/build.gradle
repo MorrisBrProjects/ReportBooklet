@@ -1,0 +1,18 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    implementation 'org.mongodb:mongo-java-driver:3.12.9'
+
+    //implementation 'io.javalin:javalin:3.13.10'
+    //implementation 'gg.jte:jte:1.11.3'
+
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.3'
+    implementation 'com.google.code.gson:gson:2.8.8'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
